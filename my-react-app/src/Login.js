@@ -15,7 +15,7 @@ function Login() {
     if (username === 'nhinhi' && password === '19111998') {
       setLoggedIn(true);
     } else {
-      alert('Login failed');
+      alert('Wrong username or password, Nhi Nhi dump dump!!!');
     }
   }
 
