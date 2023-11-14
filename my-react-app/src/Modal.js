@@ -19,9 +19,10 @@ const CustomModal = ({ isOpen, onRequestClose, content }) => {
           backgroundColor: 'rgba(0, 0, 0, 0.5)',
         },
         content: {
-          width: '400px', // Set a fixed width
-          height: '500px', // Set a fixed height
+          width: '80%', // Set a fixed width
+          height: '600px', // Set a fixed height
           margin: 'auto',
+          height: 'auto',
           padding: '20px',
           alignContent: 'center',
           borderRadius: '10px',
@@ -30,7 +31,7 @@ const CustomModal = ({ isOpen, onRequestClose, content }) => {
     >
       <h2>Here is the place we go for dinner</h2>
       <h3>Take the screenshot and sent it to me NhiNhi</h3>
-      <img src={src} alt={caption} style={{ maxWidth: '100%', maxHeight: '80%', objectFit: 'contain', alignContent: 'center', borderRadius: '10px'}} />
+      <img src={src} alt={caption} style={{ width: '100%', height: 'auto', objectFit: 'contain', alignContent: 'center', borderRadius: '10px'}} />
       <p>{caption}</p>
 
       <Components.Button onClick={onRequestClose}>Close</Components.Button>
