@@ -10,6 +10,10 @@ import unatoto from './images/unatoto.jpeg';
 import dmaris from './images/dmaris.jpeg';
 import hutong from './images/hutong.png';
 import phodinh from './images/phodinh.jpeg';
+import happylamb from './images/happylamd.jpeg';
+import nguuphon from './images/nguuphon.jpeg';
+import chang from './images/chang.jpeg';
+import somthai from './images/somthai.png';
 
 const collection = [
   { src: hadilao, caption: "Hadilao" },
@@ -18,6 +22,10 @@ const collection = [
   { src: dmaris, caption: "DMaris" },
   { src: hutong, caption: "Hutong" },
   { src: phodinh, caption: "Pho Dinh Uratei" },
+  { src: happylamb, caption: "Happy Lamb" },
+  { src: nguuphon, caption: "Nguu Phon" },
+  { src: chang, caption: "Chang" },
+  { src: somthai, caption: "Som Thai" },
 ];
 
 const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
